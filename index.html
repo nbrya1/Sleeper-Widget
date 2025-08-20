@@ -1,1 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sleeper Live Scores</title>
+  <link rel="preconnect" href="https://api.sleeper.app">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="card">
+    <div class="row header">
+      <div class="pill" id="leagueName">Sleeper</div>
+      <div class="dot" id="statusDot"></div>
+      <div class="pill" id="clock">—</div>
+    </div>
 
+    <div class="row names">
+      <div class="name" id="meName">Me</div>
+      <div class="vs">vs</div>
+      <div class="name" id="oppName">Opponent</div>
+    </div>
+
+    <div class="row scores">
+      <div class="score me" id="meScore">0.0</div>
+      <div class="sep">:</div>
+      <div class="score opp" id="oppScore">0.0</div>
+    </div>
+
+    <div class="row foot">
+      <div id="record">Week —</div>
+      <div id="updated">Updated —</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
